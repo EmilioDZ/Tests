@@ -5,27 +5,155 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" type="text/css" />
+    <script type="text/javascript" src="JavaScript.js"></script>
     <title>Práctica</title>
+    <link rel="shortcut icon" href="Deliveri-logo.png" type="image/x-icon">
   </head>
   <body>
     <div class="encabezado">
+      <a href="#"> <h3 class="popup">Recibe un 20% de descuento</h3></a>
+
       <header>
         <!-- Aqui voy a poner cosas Logo, Navbar, Enlaces etc -->
-        <h1><img src="Deliveri.png" alt="Logo" /> Derliveri</h1>
+
         <nav>
+          <a href="https://www.foodora.com/"
+            ><img src="Deliveri-logo.png" alt="Logo" class="logo"
+          /></a>
           <a href="#">Services</a>
-          <a href="#">Projects</a>
+          <a href="#">Countries</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
+          <a href="#">Careers</a>
         </nav>
       </header>
     </div>
-
     <main>
+      <div class="titulo">
+        <div class="slogan"><h1>Tú comida en minutos.</h1></div>
+      </div>
+
       <!-- Aqui estructura de pagina -->
-    </main>
+      <div class="titulo-intro">
+        <h2>EN DÓNDE PUEDES ENCONTRARNOS</h2>
+        <p class="descripcion-servicio">
+          Operamos por toda Europa, haciendo delivery de comidas,<br />
+          productos farmaceuticos y mucho más.
+        </p>
+      </div>
+      <div class="paises">
+        <div class="paises-servicio">
+          <div class="españa">
+            <img src="spain-1.png" alt="spain" />
+            <h3>España</h3>
+            <p>
+              Hola España! deliveri está en todas las grandes ciudades. Mira que
+              tenemos en oferta y realiza tu pedido.
+            </p>
+            <button type="button">Realizar pedido</button>
+          </div>
+          <div class="portugal">
+            <img src="portugal.png" alt="" />
+            <h3>Portugal</h3>
+            <p>
+              Ola Portugal! deliveri está en todas las grandes ciudades. Mira
+              que tenemos en oferta y realiza tu pedido.
+            </p>
+            <button type="button">Realizar pedido</button>
+          </div>
+          <div class="dinamarca">
+            <img src="denmark.png" alt="" />
+            <h3>Dinamarca</h3>
+            <p>
+              Hej Dinamarca! deliveri está en todas las grandes ciudades. Mira
+              que tenemos en oferta y realiza tu pedido.
+            </p>
+            <button type="button">Realizar pedido</button>
+          </div>
+          <div class="reino-unido">
+            <img src="united-kingdom.png" alt="" />
+            <h3>United Kingdom</h3>
+            <p>
+              Hi Uk! deliveri está en todas las grandes ciudades. Mira que
+              tenemos en oferta y realiza tu pedido.
+            </p>
+            <button type="button">Realizar pedido</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="nosotros">
+        <video src="Delivery.mp4" autoplay="true" loop></video>
+        <div class="conocenos">
+          <h3>Acerca de nosotros</h3>
+          <p>
+            Somos la plataforma líder en delivery en toda Europa y ahora nos
+            estamos abriendo al mercado Norte Americano y Asiático. Nos vemos
+            pronto Nepal!
+          </p>
+          <button type="button" class="f">Ver más</button>
+        </div>
+      </div>
+      <div class="tu-trabajo">
+        <div class="trabajo">
+          <h3>Encuentra el trabajo que amas</h3>
+          <p>
+            Tenemos muchas oportunidades laborales para todos. Deliveri te ofrece
+            la oportunidad de crecer en una compañía en crecimiento constante.
+          </p>
+          <button>Únete a Deliveri</button>
+        
+        <div class="contacto">
+  <!--         <img src="maman.jpg" alt=""> -->
+          <form action="#">
+            <input type="text" placeholder="Nombre" required />
+            <input type="text" placeholder="Apellido" required />
+            <input
+              type="email"
+              name="correo-electrónico"
+              id="correo"
+              placeholder="Correo electrónico"
+              required
+            />
+            <input
+              type="button"
+              name="button"
+              id="boton-formulario"
+              value="Enviar"
+            />
+          </form>
+        </div>
+        </div>
+<!--           </div> -->
+        </div>
+        <div class="cookies-card" onclick="hideButton(this);">
+          <h3 class="title">Cookies Consent</h3>
+          <p class="info">
+            By using this website, you automatically accept cookies.
+            <a href="#">Read more.</a>
+          </p>
+          <button class="btn">Accept all</button>
+          <a href="#">Cookies settings</a>
+        </div>
+      </main>
+
+      </div>
+
     <footer>
-      <h3>Recibe tu delivery en minutos</h3>
+      <div class="btn-top" onclick="topFunction(this);">
+        <button class="btn-up" type="button">
+          <img src="up-arrow.png" alt="up" class="btn-img" />
+        </button>
+      </div>
+      <div class="footer-redes">
+        <h3>Tú comida en minutos</h3>
+        <ul>
+          <li>Nosotros</li>
+          <li>Países</li>
+          <li>Contacto</li>
+          <li>Copyright</li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
